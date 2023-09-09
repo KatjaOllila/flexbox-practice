@@ -4,11 +4,14 @@
     position: absolute;
     background: #bfaab1;
     display: flex;
+    flex-wrap: wrap;
 }
 .box {
     width: 468px; 
     height: 160px;
     border: 1px dashed red;
+    border-radius: 2%;
     background: pink;
     display: flex;
 }
+
