@@ -8,5 +8,7 @@
 .box {
     width: 468px; 
     height: 160px;
+    border: 1px dashed red;
     background: pink;
+    display: flex;
 }
