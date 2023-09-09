@@ -5,12 +5,14 @@
     background: #bfaab1;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .box {
     width: 468px; 
     height: 160px;
     border: 1px dashed red;
     border-radius: 2%;
+    margin: 10px;
     background: pink;
     display: flex;
 }
