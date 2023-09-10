@@ -70,6 +70,8 @@
     margin: 15px;
     background: pink;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -109,7 +111,16 @@
     display: flex;
     background: #98d23b; 
     border-radius: 4px; 
-    align-items: center;    
+    align-items: center;      
+}
+.item-four {
+    min-width: 78px; 
+    min-height: 78px; 
+    margin: 10px;    
+    background: #98d23b; 
+    border-radius: 4px;
+    display: flex;    
+    flex-grow: 0.5;
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
