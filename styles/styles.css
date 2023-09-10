@@ -97,9 +97,10 @@
     margin: 10px;    
     background: #98d23b; 
     border-radius: 4px;
-    display: flex;
-    flex-shrink: 10;
+    display: flex;    
     align-self: center;
+    align-content: flex-start;
+    justify-content: center;
 }
 .item-three {
     max-width: 78px; 
@@ -108,15 +109,16 @@
     display: flex;
     background: #98d23b; 
     border-radius: 4px; 
-    align-items: center;
+    align-items: center;    
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: smaller;
     text-align: center;
     margin-top: 2em;
-    margin-left: 1em;
+    margin-left: 0.5em;
     margin-right: 1em;
     display: flex;
+    align-self: flex-start;
 }
 
